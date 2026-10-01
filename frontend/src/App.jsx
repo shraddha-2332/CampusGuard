@@ -627,7 +627,7 @@ function AuthScreen({ role, setRole, onEnter, authError }) {
   const selectDemo = (account) => {
     setRole(account.role);
     setEmail(account.email);
-    setPassword(account.password);
+    setPassword(localDemo ? account.password : '');
     setVisible(false);
     setSubmitted(false);
   };
@@ -667,7 +667,7 @@ function AuthScreen({ role, setRole, onEnter, authError }) {
         </div>
         <form className="loginForm" onSubmit={submit} aria-busy={pending}>
           <fieldset disabled={pending}>
-            {mode === 'signin' && localDemo && <div className="loginDemo">
+            {mode === 'signin' && <div className="loginDemo">
               <div role="group" aria-label="Choose an account">
                 {demoAccounts.map((account) => <button key={account.role} type="button" aria-pressed={email === account.email && password === account.password} onClick={() => selectDemo(account)}>{account.label}</button>)}
               </div>
