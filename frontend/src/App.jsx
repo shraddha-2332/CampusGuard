@@ -96,6 +96,7 @@ const facilities = [
 ];
 
 const scholarshipSchemes = [
+  'AICTE Pragati Scholarship Scheme for Girl Students (Technical Degree / Diploma)',
   'Dr. Panjabrao Deshmukh Vastigruh Nirvah Bhatta Yojna',
   'Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulkh Shishyavrutti Yojna',
   'Minority communities scholarship for higher and professional courses',
@@ -104,7 +105,7 @@ const scholarshipSchemes = [
 ];
 
 const scholarshipDocuments = {
-  open: ['Income certificate', 'Domicile / nationality proof', 'CAP application details', 'Bank passbook'],
+  open: ['Income certificate', 'Domicile / nationality proof', 'Admission / allotment proof', 'Bank passbook'],
   ews: ['EWS certificate', 'Income certificate', 'Domicile / nationality proof', 'Bank passbook'],
   obc: ['Caste certificate', 'Caste validity if required', 'Non-creamy layer certificate', 'Income certificate', 'Domicile / nationality proof'],
   vjnt: ['Caste certificate', 'Caste validity if required', 'Non-creamy layer certificate', 'Income certificate', 'Domicile / nationality proof'],
@@ -113,6 +114,7 @@ const scholarshipDocuments = {
 };
 
 const scholarshipChecklist = [
+  ['Admission route', 'CAP and institute-level/non-CAP admissions must be checked against each scheme\'s current route condition.'],
   ['Income proof', 'Needed for EBC/EWS/OBC/minority or other income-linked claims.'],
   ['Category proof', 'Caste certificate, validity, and non-creamy layer wherever applicable.'],
   ['Domicile / nationality', 'Often required to confirm Maharashtra/state scheme eligibility.'],
@@ -122,6 +124,14 @@ const scholarshipChecklist = [
 
 function getLikelyScholarships(profile) {
   const items = [];
+  if (profile.gender === 'girl' && profile.income === 'under8') {
+    items.push({
+      title: 'AICTE Pragati Scholarship for Girl Students',
+      reason: profile.route === 'cap'
+        ? 'Potential match for a girl student in an AICTE-approved technical degree or diploma course. Confirm the current NSP merit criteria, family limit, admission details, and documents before applying.'
+        : 'Potential profile match, but institute-level/non-CAP admission does not automatically establish Pragati eligibility. Verify that the current NSP specification accepts this admission route before applying.',
+    });
+  }
   if (profile.income === 'under8' && ['open', 'ews'].includes(profile.category)) {
     items.push({
       title: 'Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulkh Shishyavrutti Yojna',
@@ -162,6 +172,12 @@ function getLikelyScholarships(profile) {
     items.push({
       title: 'Diploma admission scholarship check',
       reason: 'Scheme applicability can differ from B.Tech, so diploma candidates should verify the exact portal/scheme route.',
+    });
+  }
+  if (profile.route === 'nonCap') {
+    items.push({
+      title: 'Institute-level / non-CAP route verification',
+      reason: 'Keep the institute application, merit-list or allotment proof, fee receipt, and originals ready. Confirm the selected scheme explicitly accepts this admission route before relying on a scholarship or concession.',
     });
   }
   if (items.length === 0) {
@@ -1216,14 +1232,20 @@ function Fees({ initial, onSave, setView }) {
 }
 
 function ScholarshipAid({ initial, onSave, setView }) {
-  const [profile, setProfile] = useState(Object.keys(initial || {}).length ? initial : {
+  const [profile, setProfile] = useState({
     category: 'obc',
     income: 'under8',
     hostel: 'yes',
     admission: 'firstYear',
+    gender: 'girl',
+    route: 'cap',
+    ...(initial || {}),
   });
   const updateProfile = (key, value) => { const next = { ...profile, [key]: value }; setProfile(next); onSave(next); };
-  const selectedDocs = scholarshipDocuments[profile.category] || scholarshipDocuments.open;
+  const pragatiDocuments = profile.gender === 'girl' && profile.income === 'under8'
+    ? ['10th / 12th marksheet as applicable', 'Admission letter or institute-level allotment / merit proof', 'Institute certificate', 'Tuition fee receipt', 'Aadhaar-seeded student bank passbook', 'Aadhaar card', 'Parent declaration']
+    : [];
+  const selectedDocs = [...new Set([...(scholarshipDocuments[profile.category] || scholarshipDocuments.open), ...pragatiDocuments])];
   const likelyScholarships = getLikelyScholarships(profile);
   return (
     <div className="pageStack">
@@ -1231,6 +1253,8 @@ function ScholarshipAid({ initial, onSave, setView }) {
       <section className="decisionPanel">
         <div className="decisionForm">
           <label>Admission type<select value={profile.admission} onChange={(event) => updateProfile('admission', event.target.value)}><option value="firstYear">First Year Engineering</option><option value="dse">Direct Second Year</option><option value="polytechnic">Polytechnic</option></select></label>
+          <label>Admission route<select value={profile.route || 'cap'} onChange={(event) => updateProfile('route', event.target.value)}><option value="cap">CAP / centralized admission</option><option value="nonCap">Institute-level / non-CAP</option></select></label>
+          <label>Student gender<select value={profile.gender || 'girl'} onChange={(event) => updateProfile('gender', event.target.value)}><option value="girl">Girl</option><option value="boy">Boy</option><option value="other">Other / prefer not to say</option></select></label>
           <label>Category / claim<select value={profile.category} onChange={(event) => updateProfile('category', event.target.value)}><option value="open">Open / OMS</option><option value="ews">EWS / EBC</option><option value="obc">OBC / SEBC</option><option value="vjnt">VJNT / SBC</option><option value="scst">SC / ST</option><option value="minority">Minority</option></select></label>
           <label>Family income<select value={profile.income} onChange={(event) => updateProfile('income', event.target.value)}><option value="under8">Up to 8 lakh</option><option value="over8">Above 8 lakh / not claiming</option></select></label>
           <label>Hostel needed<select value={profile.hostel} onChange={(event) => updateProfile('hostel', event.target.value)}><option value="yes">Yes</option><option value="no">No</option><option value="unsure">Not decided</option></select></label>
@@ -1244,7 +1268,7 @@ function ScholarshipAid({ initial, onSave, setView }) {
         <div className="sectionHead"><span className="eyebrow">Likely applicable routes</span><h2>Based on selected situation</h2></div>
         <div className="ruleGrid">{likelyScholarships.map((item) => <div key={item.title}><strong>{item.title}</strong><p>{item.reason}</p></div>)}</div>
         <p className="warningText"><ShieldCheck size={16} /> This is guidance for preparation. Final eligibility depends on official scheme rules and document verification.</p>
-        <div className="workflowActions"><button type="button" onClick={() => setView('documents')}>Upload required proofs <ArrowRight size={16} /></button><a href="https://mahadbt.maharashtra.gov.in/login/login" target="_blank" rel="noreferrer">Apply through MahaDBT <ArrowRight size={16} /></a><a href="https://www.aicte.gov.in/schemes/students-development-schemes" target="_blank" rel="noreferrer">Check AICTE student schemes <ArrowRight size={16} /></a><a href="https://www.vidyalakshmi.co.in/Students/" target="_blank" rel="noreferrer">Explore education loans on Vidya Lakshmi <ArrowRight size={16} /></a><button type="button" onClick={() => setView('inquiry')}>Ask staff about scheme fit</button></div>
+        <div className="workflowActions"><button type="button" onClick={() => setView('documents')}>Upload required proofs <ArrowRight size={16} /></button><a href="https://scholarships.gov.in/All-Scholarships" target="_blank" rel="noreferrer">Check Pragati on NSP <ArrowRight size={16} /></a><a href="https://www.mitcorer.edu.in/scholarship.php" target="_blank" rel="noreferrer">MITCORER scholarship list <ArrowRight size={16} /></a><a href="https://mahadbt.maharashtra.gov.in/login/login" target="_blank" rel="noreferrer">Apply through MahaDBT <ArrowRight size={16} /></a><button type="button" onClick={() => setView('inquiry')}>Ask staff about scheme fit</button></div>
       </section>
       <div className="visitGrid">
       <section className="panelBlock">

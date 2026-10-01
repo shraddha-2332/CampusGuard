@@ -402,6 +402,38 @@ test('assistant answers bus questions without mixing in hostel details', async (
   });
 });
 
+test('assistant answers Pragati questions from the dedicated verified record', async () => {
+  await withServer(async (base) => {
+    const token = await login(base, 'applicant@example.com');
+    const { response, payload } = await request(base, '/api/assistant/ask', {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}` },
+      body: JSON.stringify({ question: 'Can a girl admitted through non-CAP apply for Pragati scholarship?' }),
+    });
+    assert.equal(response.status, 200);
+    assert.equal(payload.data.evidence[0]?.id, 'KB-33');
+    assert.match(payload.data.answer, /girl students/i);
+    assert.match(payload.data.answer, /do not assume eligibility/i);
+    assert.ok(payload.data.officialLinks.some((item) => item.url === 'https://scholarships.gov.in/All-Scholarships'));
+  });
+});
+
+test('assistant explains the non-CAP workflow and keeps scholarship eligibility separate', async () => {
+  await withServer(async (base) => {
+    const token = await login(base, 'applicant@example.com');
+    const { response, payload } = await request(base, '/api/assistant/ask', {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}` },
+      body: JSON.stringify({ question: 'How does non-CAP admission work and what happens to scholarship?' }),
+    });
+    assert.equal(response.status, 200);
+    assert.equal(payload.data.evidence[0]?.id, 'KB-14');
+    assert.match(payload.data.answer, /institute-level/i);
+    assert.match(payload.data.answer, /does not automatically qualify/i);
+    assert.ok(payload.data.officialLinks.some((item) => item.url.includes('acap-institute-level-admission')));
+  });
+});
+
 test('official-fact routing keeps distinct website questions distinct', async () => {
   await withServer(async (base) => {
     const token = await login(base, 'applicant@example.com');

@@ -128,9 +128,9 @@ export const seedKnowledge = [
     title: 'MITCORER ACAP and institute-level admissions 2026-27',
     category: 'Admissions',
     source: 'MITCORER ACAP / Institute Level Admission page',
-    tags: ['acap', 'institute level', 'management quota', 'vacancy', 'merit list', 'against cap'],
+    tags: ['acap', 'non cap', 'non-cap', 'institute level', 'management quota', 'vacancy', 'merit list', 'against cap'],
     sourceUrl: 'https://mitcorer.edu.in/acap-institute-level-admission.php',
-    text: 'The official ACAP page publishes an ACAP schedule, first-year and direct-second-year provisional and final institute merit lists, vacancies after CAP-IV, ACAP notices for both routes, and Against CAP news for 2026-27. Institute-level admission must be answered from the latest listed notice, merit list, vacancy notice, and schedule; it is not a guarantee of a seat.',
+    text: 'Non-CAP, Against-CAP, ACAP, and institute-level admission refer to the institute process for eligible candidates against seats available after the applicable CAP rounds. MITCORER publishes separate first-year and direct-second-year schedules, vacancies, provisional merit lists, final merit lists, and allotment notices. Applicants must submit the current institute form, follow the published merit process, and confirm admission in person with the required original documents within the notice deadline. A vacancy or application does not guarantee allotment. Scholarship or fee-concession eligibility must be verified separately because institute-level admission alone does not establish scheme eligibility.',
     status: 'Published',
   },
   {
@@ -311,6 +311,16 @@ export const seedKnowledge = [
     text: 'PAH Solapur University Circular No. 06 for academic year 2026-27 states that biometric attendance is mandatory for students of affiliated colleges and university schools. This attendance-recording requirement does not replace the separate academic attendance threshold in the engineering rules.',
     status: 'Published',
   },
+  {
+    id: 'KB-33',
+    title: 'AICTE Pragati Scholarship for Girl Students',
+    category: 'Scholarship',
+    source: 'National Scholarship Portal and MITCORER scholarship page',
+    sourceUrl: 'https://scholarships.gov.in/All-Scholarships',
+    tags: ['pragati', 'girl scholarship', 'girls scholarship', 'aicte scholarship', 'nsp scholarship'],
+    text: 'MITCORER lists the AICTE Pragati Scholarship Scheme for Girl Students in technical degree study, and the National Scholarship Portal lists separate merit-based Pragati schemes for technical degree and technical diploma students for AY 2026-27. A potentially relevant profile is a girl student in an AICTE-approved technical course, but final eligibility, merit selection, family conditions, admission-route acceptance, document requirements, and application dates must be checked in the current NSP scheme specification. NSP One Time Registration is required. Institute-level or non-CAP admission must not be assumed eligible unless the current scheme specification accepts that route.',
+    status: 'Published',
+  },
 ];
 
 export const seedOfficialSources = [
@@ -326,6 +336,8 @@ export const seedOfficialSources = [
   { id: 'SRC-10', title: 'CBCS UG Engineering attendance rules', documentType: 'University rules', academicYear: 'Applicable CBCS rules', sourceAuthority: 'Punyashlok Ahilyadevi Holkar Solapur University', originalFileName: 'CBCS UG Rules.pdf', sourceUrl: 'https://www.sus.ac.in/uploads/engineering/Eng%20Revised%20Semester%20Pattern/CBCS%20UG%20Rules.pdf', status: 'Published', extractionStatus: 'Verified clauses 5 and 6', linkedKnowledgeCount: 1 },
   { id: 'SRC-11', title: 'Mandatory biometric attendance Circular No. 06', documentType: 'University circular', academicYear: '2026-27', sourceAuthority: 'Punyashlok Ahilyadevi Holkar Solapur University', originalFileName: 'LMS Circular - 6 20062026.pdf', sourceUrl: 'https://www.sus.ac.in/uploads/admission/Admission%202026%2027/Circular/LMS%20Circular%20-%206%2020062026.pdf', status: 'Published', extractionStatus: 'Verified university notice', linkedKnowledgeCount: 1 },
   { id: 'SRC-12', title: 'Official contact and travel information', documentType: 'Contact', academicYear: '2026-27', sourceAuthority: 'MITCORER official website', originalFileName: 'contact.php', sourceUrl: 'https://mitcorer.edu.in/contact.php', status: 'Published', extractionStatus: 'Verified website record', linkedKnowledgeCount: 1 },
+  { id: 'SRC-13', title: 'MITCORER published scholarship schemes', documentType: 'Scholarship', academicYear: '2026-27', sourceAuthority: 'MITCORER official website', originalFileName: 'scholarship.php', sourceUrl: 'https://www.mitcorer.edu.in/scholarship.php', status: 'Published', extractionStatus: 'Verified website record', linkedKnowledgeCount: 2 },
+  { id: 'SRC-14', title: 'AICTE Pragati scheme listing on NSP', documentType: 'Scholarship', academicYear: '2026-27', sourceAuthority: 'National Scholarship Portal', originalFileName: 'All-Scholarships', sourceUrl: 'https://scholarships.gov.in/All-Scholarships', status: 'Published', extractionStatus: 'Verified current portal listing', linkedKnowledgeCount: 1 },
 ];
 
 export function createSeedData() {

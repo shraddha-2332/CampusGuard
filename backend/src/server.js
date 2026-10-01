@@ -764,7 +764,7 @@ function getOfficialAdmissionLinks(question) {
   const add = (label, url) => links.push({ label, url });
   const asksDse = /direct second|dse|lateral|second year/.test(normalized);
   const asksPolytechnic = /polytechnic|diploma|post ssc/.test(normalized);
-  const asksAcap = /acap|institute level|institute-level|against cap|vacancy/.test(normalized);
+  const asksAcap = /acap|non cap|non-cap|institute level|institute-level|against cap|vacancy/.test(normalized);
   const asksCap = /\bcap\b|allotment|option form|freeze|betterment|seat acceptance|reporting|deadline|schedule|last date/.test(normalized);
 
   if (asksDse) add('Official DSE Engineering portal 2026-27', 'https://dse2026.mahacet.org.in/');
@@ -773,6 +773,43 @@ function getOfficialAdmissionLinks(question) {
   if (asksAcap) add('MITCORER ACAP and institute-level notices', 'https://mitcorer.edu.in/acap-institute-level-admission.php');
   if (asksCap || asksAcap) add('Maharashtra CET Cell notices', 'https://cetcell.mahacet.org/notices/');
   return links;
+}
+
+function getOfficialScholarshipLinks(question) {
+  const normalized = normalizeIntentText(question);
+  if (!/scholarship|pragati|financial aid|mahadbt|nsp/.test(normalized)) return [];
+  const links = [
+    { label: 'MITCORER scholarship schemes', url: 'https://www.mitcorer.edu.in/scholarship.php' },
+    { label: 'National Scholarship Portal schemes', url: 'https://scholarships.gov.in/All-Scholarships' },
+  ];
+  if (!normalized.includes('pragati')) links.push({ label: 'MahaDBT scholarship portal', url: 'https://mahadbt.maharashtra.gov.in/login/login' });
+  return links;
+}
+
+function buildScholarshipAnswer(question) {
+  const normalized = normalizeIntentText(question);
+  if (!/scholarship|pragati|financial aid|mahadbt|nsp/.test(normalized)) return null;
+  const asksPragati = normalized.includes('pragati');
+  const isNonCap = /non cap|non-cap|acap|institute level|institute-level|against cap/.test(normalized);
+  if (asksPragati) {
+    return {
+      source: 'National Scholarship Portal and MITCORER scholarship page',
+      answer: `MITCORER lists AICTE Pragati for girl students, and NSP lists separate merit-based Pragati schemes for technical degree and diploma students. It is potentially relevant to a girl student in an AICTE-approved technical course. Final eligibility depends on the current NSP specification, merit and family conditions, admission details, documents, and application dates.${isNonCap ? ' Because this is an institute-level/non-CAP admission, do not assume eligibility: confirm that the current Pragati specification accepts that route.' : ''} NSP One Time Registration is required before applying.`,
+      next: 'Open the current Pragati specification on NSP and verify course level, admission route, family conditions, documents, and deadline.',
+      actionView: 'scholarships',
+      actionLabel: 'Check scholarship readiness',
+    };
+  }
+  if (isNonCap) {
+    return {
+      source: 'MITCORER scholarship and institute-level admission guidance',
+      answer: 'A non-CAP or institute-level student may check scholarships, but admission through that route does not automatically qualify the student for a scheme. Each MahaDBT or NSP scheme has its own admission-route, category, income, domicile, merit, and document conditions. Verify the current scheme specification before relying on a concession or paying fees.',
+      next: 'Select the exact scheme and compare its current admission-route condition with your institute-level allotment or merit proof.',
+      actionView: 'scholarships',
+      actionLabel: 'Check scholarship readiness',
+    };
+  }
+  return null;
 }
 
 function getOfficialUniversityLinks(question) {
@@ -868,13 +905,13 @@ export function retrieveKnowledge(question) {
     [['cutoff', 'closing', 'rank'], 'cutoff'],
     [['fee', 'payment', 'amount', 'installment'], 'fees'],
     [['document', 'certificate', 'marksheet', 'aadhaar', 'domicile', 'validity'], 'documents'],
-    [['scholarship', 'concession', 'ebc', 'ews', 'tfws', 'income'], 'scholarship'],
+    [['scholarship', 'pragati', 'concession', 'ebc', 'ews', 'tfws', 'income'], 'scholarship'],
     [['hostel', 'mess', 'library', 'wifi', 'laboratory', 'bus', 'transport', 'facility'], 'facilities'],
     [['placement', 'package', 'company', 'recruiter', 'internship', 'career'], 'placement'],
     [['contact', 'phone', 'email', 'address', 'reach', 'station'], 'contact'],
     [['seat matrix', 'cap seats', 'sanctioned intake'], 'seat matrix'],
     [['polytechnic', 'diploma', 'program', 'course', 'branch', 'choice code', 'intake'], 'programs'],
-    [['acap', 'institute level', 'management quota', 'vacancy', 'merit list'], 'admissions'],
+    [['acap', 'non cap', 'non-cap', 'institute level', 'management quota', 'vacancy', 'merit list'], 'admissions'],
     [['attendance', 'absence', 'detained', 'biometric', 'condonation'], 'university rules'],
   ];
   const preferredCategory = categoryHints.find(([terms]) => terms.some((term) => rawQuestion.includes(term) || normalizedQuestion.includes(term)))?.[1] || '';
@@ -897,7 +934,10 @@ export function retrieveKnowledge(question) {
   }
   if (['exam', 'exams', 'entrance'].some((term) => words.has(term)) && ['accepted', 'accept', 'which'].some((term) => words.has(term))) targetedRecordIds.add('KB-25');
   if (rawQuestion.includes('cap round') || rawQuestion.includes('cap process') || rawQuestion.includes('option form') || rawQuestion.includes('betterment') || rawQuestion.includes('freeze')) targetedRecordIds.add('KB-29');
-  if (rawQuestion.includes('acap') || rawQuestion.includes('institute level') || rawQuestion.includes('management quota') || rawQuestion.includes('against cap')) targetedRecordIds.add('KB-14');
+  if (rawQuestion.includes('acap') || rawQuestion.includes('non cap') || rawQuestion.includes('non-cap') || rawQuestion.includes('institute level') || rawQuestion.includes('management quota') || rawQuestion.includes('against cap')) {
+    targetedRecordIds.add('KB-14');
+    primaryRecordIds.add('KB-14');
+  }
   if (['deadline', 'last date', 'admission date', 'reporting date', 'admission schedule'].some((term) => rawQuestion.includes(term)) || normalizedQuestion.includes('deadline')) targetedRecordIds.add('KB-30');
   if (/attendance|present|absen|detain|condonation|biometric|\bxx\b/.test(normalizedQuestion)) {
     targetedRecordIds.add('KB-31');
@@ -905,6 +945,10 @@ export function retrieveKnowledge(question) {
     if (normalizedQuestion.includes('biometric')) targetedRecordIds.add('KB-32');
   }
   if (['scholarship', 'financial aid', 'mahadbt'].some((term) => rawQuestion.includes(term)) && !rawQuestion.includes('fee')) targetedRecordIds.add('KB-18');
+  if (rawQuestion.includes('pragati')) {
+    targetedRecordIds.add('KB-33');
+    primaryRecordIds.add('KB-33');
+  }
   if (rawQuestion.includes('bus') || rawQuestion.includes('transport')) targetedRecordIds.add('KB-19');
   if (rawQuestion.includes('library') || rawQuestion.includes('digital resources') || rawQuestion.includes('journal')) targetedRecordIds.add('KB-20');
   if (rawQuestion.includes('wifi') || rawQuestion.includes('wi-fi') || rawQuestion.includes('internet')) targetedRecordIds.add('KB-21');
@@ -1013,14 +1057,14 @@ async function answerAdmissionQuestion(body, user) {
   const retrievedEvidence = retrieveKnowledge(question);
   // Do not attach a loosely matched MITCORER record to an unrelated question.
   const evidence = retrievedEvidence[0]?.score >= 15 ? retrievedEvidence : [];
-  const answer = buildAdmissionReadinessAnswer(question, user) || buildDocumentStatusAnswer(question, user) || buildDeadlineAnswer(question) || buildAttendanceAnswer(question) || buildHostelMessFeeAnswer(question) || buildStructuredFeeAnswer(question) || buildSeatMatrixAnswer(question) || buildFeeAnswer(question) || buildEligibilityAnswer(question) || buildFacilityAnswer(question) || assistantRules.find((item) => item.match.some((word) => normalized.includes(word))) || {
+  const answer = buildAdmissionReadinessAnswer(question, user) || buildDocumentStatusAnswer(question, user) || buildDeadlineAnswer(question) || buildAttendanceAnswer(question) || buildHostelMessFeeAnswer(question) || buildStructuredFeeAnswer(question) || buildSeatMatrixAnswer(question) || buildFeeAnswer(question) || buildEligibilityAnswer(question) || buildFacilityAnswer(question) || buildScholarshipAnswer(question) || assistantRules.find((item) => item.match.some((word) => normalized.includes(word))) || {
     source: 'No verified record',
     answer: 'I do not have a verified official record that answers this yet. I can answer questions grounded in the available admission rules, fees, documents, CAP and ACAP process, programmes, historical cutoff and seat data, scholarships, facilities, placement information, and official contact details.',
     next: 'Ask the question with the admission route, academic year, branch, category, or document name where relevant.',
     actionView: 'inquiry',
     actionLabel: 'Request verified information',
   };
-  const officialLinks = [...getOfficialAdmissionLinks(question), ...getOfficialUniversityLinks(question)];
+  const officialLinks = [...getOfficialAdmissionLinks(question), ...getOfficialScholarshipLinks(question), ...getOfficialUniversityLinks(question)];
   // The LLM is deliberately not allowed to replace verified admissions answers.
   // It can be introduced later only behind an evaluated, citation-preserving response validator.
   const generated = null;
