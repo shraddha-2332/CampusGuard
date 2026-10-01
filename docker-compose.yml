@@ -1,0 +1,38 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    environment:
+      PORT: 4000
+      NODE_ENV: production
+      CORS_ORIGIN: http://127.0.0.1:8080,http://localhost:8080
+      TOKEN_SECRET: ${TOKEN_SECRET:?Set TOKEN_SECRET before running Docker Compose}
+      DATABASE_FILE: /app/data/campusguard.sqlite
+    expose:
+      - "4000"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:4000/api/health').then((response) => process.exit(response.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    volumes:
+      - campusguard_backend_data:/app/data
+      - campusguard_uploads:/app/uploads
+      - campusguard_official_sources:/app/official-sources
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: ""
+    ports:
+      - "8080:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  campusguard_backend_data:
+  campusguard_uploads:
+  campusguard_official_sources:

@@ -1,0 +1,3607 @@
+{
+  "version": "1.0",
+  "purpose": "retrieval and response evaluation, not model fine-tuning",
+  "count": 360,
+  "records": [
+    {
+      "id": "CGQ-001",
+      "language": "en",
+      "intent": "eligibility",
+      "question": "What is first-year B.Tech eligibility?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-002",
+      "language": "en",
+      "intent": "eligibility",
+      "question": "Explain first-year B.Tech eligibility.",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-003",
+      "language": "en",
+      "intent": "eligibility",
+      "question": "Which verified rule covers first-year B.Tech eligibility?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-004",
+      "language": "en",
+      "intent": "eligibility",
+      "question": "What information do you need to answer about first-year B.Tech eligibility?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-005",
+      "language": "en",
+      "intent": "eligibility",
+      "question": "Show the source for first-year B.Tech eligibility.",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-006",
+      "language": "en",
+      "intent": "eligibility",
+      "question": "What should an applicant do next regarding first-year B.Tech eligibility?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-007",
+      "language": "mr",
+      "intent": "eligibility",
+      "question": "पहिल्या वर्षाची B.Tech पात्रता काय आहे?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-008",
+      "language": "mr",
+      "intent": "eligibility",
+      "question": "पहिल्या वर्षाची B.Tech पात्रता समजावून सांगा.",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-009",
+      "language": "mr",
+      "intent": "eligibility",
+      "question": "पहिल्या वर्षाची B.Tech पात्रता साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-010",
+      "language": "mr",
+      "intent": "eligibility",
+      "question": "पहिल्या वर्षाची B.Tech पात्रता बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-011",
+      "language": "mr",
+      "intent": "eligibility",
+      "question": "पहिल्या वर्षाची B.Tech पात्रता चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-012",
+      "language": "mr",
+      "intent": "eligibility",
+      "question": "पहिल्या वर्षाची B.Tech पात्रता साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-013",
+      "language": "hi",
+      "intent": "eligibility",
+      "question": "प्रथम वर्ष B.Tech पात्रता क्या है?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-014",
+      "language": "hi",
+      "intent": "eligibility",
+      "question": "प्रथम वर्ष B.Tech पात्रता समझाइए।",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-015",
+      "language": "hi",
+      "intent": "eligibility",
+      "question": "प्रथम वर्ष B.Tech पात्रता के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-016",
+      "language": "hi",
+      "intent": "eligibility",
+      "question": "प्रथम वर्ष B.Tech पात्रता का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-017",
+      "language": "hi",
+      "intent": "eligibility",
+      "question": "प्रथम वर्ष B.Tech पात्रता का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-018",
+      "language": "hi",
+      "intent": "eligibility",
+      "question": "प्रथम वर्ष B.Tech पात्रता के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-019",
+      "language": "hinglish",
+      "intent": "eligibility",
+      "question": "first year B.Tech eligibility kya hai?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-020",
+      "language": "hinglish",
+      "intent": "eligibility",
+      "question": "first year B.Tech eligibility explain karo.",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-021",
+      "language": "hinglish",
+      "intent": "eligibility",
+      "question": "first year B.Tech eligibility ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-022",
+      "language": "hinglish",
+      "intent": "eligibility",
+      "question": "first year B.Tech eligibility answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-023",
+      "language": "hinglish",
+      "intent": "eligibility",
+      "question": "first year B.Tech eligibility ka official source dikhao.",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-024",
+      "language": "hinglish",
+      "intent": "eligibility",
+      "question": "first year B.Tech eligibility ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "eligibility",
+      "expectedBehavior": "Separate minimum eligibility from branch allotment and request only missing academic/candidature facts.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-025",
+      "language": "en",
+      "intent": "cutoff",
+      "question": "What is historical CSE cutoff?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-026",
+      "language": "en",
+      "intent": "cutoff",
+      "question": "Explain historical CSE cutoff.",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-027",
+      "language": "en",
+      "intent": "cutoff",
+      "question": "Which verified rule covers historical CSE cutoff?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-028",
+      "language": "en",
+      "intent": "cutoff",
+      "question": "What information do you need to answer about historical CSE cutoff?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-029",
+      "language": "en",
+      "intent": "cutoff",
+      "question": "Show the source for historical CSE cutoff.",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-030",
+      "language": "en",
+      "intent": "cutoff",
+      "question": "What should an applicant do next regarding historical CSE cutoff?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-031",
+      "language": "mr",
+      "intent": "cutoff",
+      "question": "मागील CSE कटऑफ काय आहे?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-032",
+      "language": "mr",
+      "intent": "cutoff",
+      "question": "मागील CSE कटऑफ समजावून सांगा.",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-033",
+      "language": "mr",
+      "intent": "cutoff",
+      "question": "मागील CSE कटऑफ साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-034",
+      "language": "mr",
+      "intent": "cutoff",
+      "question": "मागील CSE कटऑफ बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-035",
+      "language": "mr",
+      "intent": "cutoff",
+      "question": "मागील CSE कटऑफ चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-036",
+      "language": "mr",
+      "intent": "cutoff",
+      "question": "मागील CSE कटऑफ साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-037",
+      "language": "hi",
+      "intent": "cutoff",
+      "question": "पिछला CSE कटऑफ क्या है?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-038",
+      "language": "hi",
+      "intent": "cutoff",
+      "question": "पिछला CSE कटऑफ समझाइए।",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-039",
+      "language": "hi",
+      "intent": "cutoff",
+      "question": "पिछला CSE कटऑफ के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-040",
+      "language": "hi",
+      "intent": "cutoff",
+      "question": "पिछला CSE कटऑफ का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-041",
+      "language": "hi",
+      "intent": "cutoff",
+      "question": "पिछला CSE कटऑफ का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-042",
+      "language": "hi",
+      "intent": "cutoff",
+      "question": "पिछला CSE कटऑफ के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-043",
+      "language": "hinglish",
+      "intent": "cutoff",
+      "question": "previous CSE cutoff kya hai?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-044",
+      "language": "hinglish",
+      "intent": "cutoff",
+      "question": "previous CSE cutoff explain karo.",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-045",
+      "language": "hinglish",
+      "intent": "cutoff",
+      "question": "previous CSE cutoff ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-046",
+      "language": "hinglish",
+      "intent": "cutoff",
+      "question": "previous CSE cutoff answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-047",
+      "language": "hinglish",
+      "intent": "cutoff",
+      "question": "previous CSE cutoff ka official source dikhao.",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-048",
+      "language": "hinglish",
+      "intent": "cutoff",
+      "question": "previous CSE cutoff ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "cutoff",
+      "expectedBehavior": "Require year, round, exam, category and seat type; label historical values and avoid guarantees.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-049",
+      "language": "en",
+      "intent": "seat_matrix",
+      "question": "What is CSE seat matrix and intake?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-050",
+      "language": "en",
+      "intent": "seat_matrix",
+      "question": "Explain CSE seat matrix and intake.",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-051",
+      "language": "en",
+      "intent": "seat_matrix",
+      "question": "Which verified rule covers CSE seat matrix and intake?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-052",
+      "language": "en",
+      "intent": "seat_matrix",
+      "question": "What information do you need to answer about CSE seat matrix and intake?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-053",
+      "language": "en",
+      "intent": "seat_matrix",
+      "question": "Show the source for CSE seat matrix and intake.",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-054",
+      "language": "en",
+      "intent": "seat_matrix",
+      "question": "What should an applicant do next regarding CSE seat matrix and intake?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-055",
+      "language": "mr",
+      "intent": "seat_matrix",
+      "question": "CSE जागा आणि प्रवेश क्षमता काय आहे?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-056",
+      "language": "mr",
+      "intent": "seat_matrix",
+      "question": "CSE जागा आणि प्रवेश क्षमता समजावून सांगा.",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-057",
+      "language": "mr",
+      "intent": "seat_matrix",
+      "question": "CSE जागा आणि प्रवेश क्षमता साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-058",
+      "language": "mr",
+      "intent": "seat_matrix",
+      "question": "CSE जागा आणि प्रवेश क्षमता बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-059",
+      "language": "mr",
+      "intent": "seat_matrix",
+      "question": "CSE जागा आणि प्रवेश क्षमता चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-060",
+      "language": "mr",
+      "intent": "seat_matrix",
+      "question": "CSE जागा आणि प्रवेश क्षमता साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-061",
+      "language": "hi",
+      "intent": "seat_matrix",
+      "question": "CSE सीट मैट्रिक्स और इंटेक क्या है?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-062",
+      "language": "hi",
+      "intent": "seat_matrix",
+      "question": "CSE सीट मैट्रिक्स और इंटेक समझाइए।",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-063",
+      "language": "hi",
+      "intent": "seat_matrix",
+      "question": "CSE सीट मैट्रिक्स और इंटेक के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-064",
+      "language": "hi",
+      "intent": "seat_matrix",
+      "question": "CSE सीट मैट्रिक्स और इंटेक का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-065",
+      "language": "hi",
+      "intent": "seat_matrix",
+      "question": "CSE सीट मैट्रिक्स और इंटेक का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-066",
+      "language": "hi",
+      "intent": "seat_matrix",
+      "question": "CSE सीट मैट्रिक्स और इंटेक के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-067",
+      "language": "hinglish",
+      "intent": "seat_matrix",
+      "question": "CSE seats and intake kya hai?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-068",
+      "language": "hinglish",
+      "intent": "seat_matrix",
+      "question": "CSE seats and intake explain karo.",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-069",
+      "language": "hinglish",
+      "intent": "seat_matrix",
+      "question": "CSE seats and intake ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-070",
+      "language": "hinglish",
+      "intent": "seat_matrix",
+      "question": "CSE seats and intake answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-071",
+      "language": "hinglish",
+      "intent": "seat_matrix",
+      "question": "CSE seats and intake ka official source dikhao.",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-072",
+      "language": "hinglish",
+      "intent": "seat_matrix",
+      "question": "CSE seats and intake ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "seat_matrix",
+      "expectedBehavior": "Return the matching academic year, branch choice code and seat breakdown from the verified matrix.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-073",
+      "language": "en",
+      "intent": "cap",
+      "question": "What is CAP round process?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-074",
+      "language": "en",
+      "intent": "cap",
+      "question": "Explain CAP round process.",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-075",
+      "language": "en",
+      "intent": "cap",
+      "question": "Which verified rule covers CAP round process?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-076",
+      "language": "en",
+      "intent": "cap",
+      "question": "What information do you need to answer about CAP round process?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-077",
+      "language": "en",
+      "intent": "cap",
+      "question": "Show the source for CAP round process.",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-078",
+      "language": "en",
+      "intent": "cap",
+      "question": "What should an applicant do next regarding CAP round process?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-079",
+      "language": "mr",
+      "intent": "cap",
+      "question": "CAP फेरी प्रक्रिया काय आहे?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-080",
+      "language": "mr",
+      "intent": "cap",
+      "question": "CAP फेरी प्रक्रिया समजावून सांगा.",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-081",
+      "language": "mr",
+      "intent": "cap",
+      "question": "CAP फेरी प्रक्रिया साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-082",
+      "language": "mr",
+      "intent": "cap",
+      "question": "CAP फेरी प्रक्रिया बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-083",
+      "language": "mr",
+      "intent": "cap",
+      "question": "CAP फेरी प्रक्रिया चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-084",
+      "language": "mr",
+      "intent": "cap",
+      "question": "CAP फेरी प्रक्रिया साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-085",
+      "language": "hi",
+      "intent": "cap",
+      "question": "CAP राउंड प्रक्रिया क्या है?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-086",
+      "language": "hi",
+      "intent": "cap",
+      "question": "CAP राउंड प्रक्रिया समझाइए।",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-087",
+      "language": "hi",
+      "intent": "cap",
+      "question": "CAP राउंड प्रक्रिया के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-088",
+      "language": "hi",
+      "intent": "cap",
+      "question": "CAP राउंड प्रक्रिया का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-089",
+      "language": "hi",
+      "intent": "cap",
+      "question": "CAP राउंड प्रक्रिया का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-090",
+      "language": "hi",
+      "intent": "cap",
+      "question": "CAP राउंड प्रक्रिया के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-091",
+      "language": "hinglish",
+      "intent": "cap",
+      "question": "CAP round process kya hai?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-092",
+      "language": "hinglish",
+      "intent": "cap",
+      "question": "CAP round process explain karo.",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-093",
+      "language": "hinglish",
+      "intent": "cap",
+      "question": "CAP round process ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-094",
+      "language": "hinglish",
+      "intent": "cap",
+      "question": "CAP round process answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-095",
+      "language": "hinglish",
+      "intent": "cap",
+      "question": "CAP round process ka official source dikhao.",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-096",
+      "language": "hinglish",
+      "intent": "cap",
+      "question": "CAP round process ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "cap",
+      "expectedBehavior": "Explain the relevant CAP stage, candidate action and deadline source.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-097",
+      "language": "en",
+      "intent": "acap",
+      "question": "What is ACAP and institute-level admission?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-098",
+      "language": "en",
+      "intent": "acap",
+      "question": "Explain ACAP and institute-level admission.",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-099",
+      "language": "en",
+      "intent": "acap",
+      "question": "Which verified rule covers ACAP and institute-level admission?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-100",
+      "language": "en",
+      "intent": "acap",
+      "question": "What information do you need to answer about ACAP and institute-level admission?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-101",
+      "language": "en",
+      "intent": "acap",
+      "question": "Show the source for ACAP and institute-level admission.",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-102",
+      "language": "en",
+      "intent": "acap",
+      "question": "What should an applicant do next regarding ACAP and institute-level admission?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-103",
+      "language": "mr",
+      "intent": "acap",
+      "question": "ACAP आणि संस्था स्तर प्रवेश काय आहे?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-104",
+      "language": "mr",
+      "intent": "acap",
+      "question": "ACAP आणि संस्था स्तर प्रवेश समजावून सांगा.",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-105",
+      "language": "mr",
+      "intent": "acap",
+      "question": "ACAP आणि संस्था स्तर प्रवेश साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-106",
+      "language": "mr",
+      "intent": "acap",
+      "question": "ACAP आणि संस्था स्तर प्रवेश बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-107",
+      "language": "mr",
+      "intent": "acap",
+      "question": "ACAP आणि संस्था स्तर प्रवेश चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-108",
+      "language": "mr",
+      "intent": "acap",
+      "question": "ACAP आणि संस्था स्तर प्रवेश साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-109",
+      "language": "hi",
+      "intent": "acap",
+      "question": "ACAP और संस्थान स्तर प्रवेश क्या है?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-110",
+      "language": "hi",
+      "intent": "acap",
+      "question": "ACAP और संस्थान स्तर प्रवेश समझाइए।",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-111",
+      "language": "hi",
+      "intent": "acap",
+      "question": "ACAP और संस्थान स्तर प्रवेश के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-112",
+      "language": "hi",
+      "intent": "acap",
+      "question": "ACAP और संस्थान स्तर प्रवेश का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-113",
+      "language": "hi",
+      "intent": "acap",
+      "question": "ACAP और संस्थान स्तर प्रवेश का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-114",
+      "language": "hi",
+      "intent": "acap",
+      "question": "ACAP और संस्थान स्तर प्रवेश के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-115",
+      "language": "hinglish",
+      "intent": "acap",
+      "question": "ACAP institute level admission kya hai?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-116",
+      "language": "hinglish",
+      "intent": "acap",
+      "question": "ACAP institute level admission explain karo.",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-117",
+      "language": "hinglish",
+      "intent": "acap",
+      "question": "ACAP institute level admission ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-118",
+      "language": "hinglish",
+      "intent": "acap",
+      "question": "ACAP institute level admission answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-119",
+      "language": "hinglish",
+      "intent": "acap",
+      "question": "ACAP institute level admission ka official source dikhao.",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-120",
+      "language": "hinglish",
+      "intent": "acap",
+      "question": "ACAP institute level admission ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "acap",
+      "expectedBehavior": "Distinguish institute-level admission from CAP and use the applicable vacancy/merit notice.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-121",
+      "language": "en",
+      "intent": "documents",
+      "question": "What is required admission documents?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-122",
+      "language": "en",
+      "intent": "documents",
+      "question": "Explain required admission documents.",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-123",
+      "language": "en",
+      "intent": "documents",
+      "question": "Which verified rule covers required admission documents?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-124",
+      "language": "en",
+      "intent": "documents",
+      "question": "What information do you need to answer about required admission documents?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-125",
+      "language": "en",
+      "intent": "documents",
+      "question": "Show the source for required admission documents.",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-126",
+      "language": "en",
+      "intent": "documents",
+      "question": "What should an applicant do next regarding required admission documents?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-127",
+      "language": "mr",
+      "intent": "documents",
+      "question": "प्रवेशासाठी आवश्यक कागदपत्रे काय आहे?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-128",
+      "language": "mr",
+      "intent": "documents",
+      "question": "प्रवेशासाठी आवश्यक कागदपत्रे समजावून सांगा.",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-129",
+      "language": "mr",
+      "intent": "documents",
+      "question": "प्रवेशासाठी आवश्यक कागदपत्रे साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-130",
+      "language": "mr",
+      "intent": "documents",
+      "question": "प्रवेशासाठी आवश्यक कागदपत्रे बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-131",
+      "language": "mr",
+      "intent": "documents",
+      "question": "प्रवेशासाठी आवश्यक कागदपत्रे चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-132",
+      "language": "mr",
+      "intent": "documents",
+      "question": "प्रवेशासाठी आवश्यक कागदपत्रे साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-133",
+      "language": "hi",
+      "intent": "documents",
+      "question": "प्रवेश के आवश्यक दस्तावेज क्या है?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-134",
+      "language": "hi",
+      "intent": "documents",
+      "question": "प्रवेश के आवश्यक दस्तावेज समझाइए।",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-135",
+      "language": "hi",
+      "intent": "documents",
+      "question": "प्रवेश के आवश्यक दस्तावेज के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-136",
+      "language": "hi",
+      "intent": "documents",
+      "question": "प्रवेश के आवश्यक दस्तावेज का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-137",
+      "language": "hi",
+      "intent": "documents",
+      "question": "प्रवेश के आवश्यक दस्तावेज का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-138",
+      "language": "hi",
+      "intent": "documents",
+      "question": "प्रवेश के आवश्यक दस्तावेज के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-139",
+      "language": "hinglish",
+      "intent": "documents",
+      "question": "admission documents kya hai?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-140",
+      "language": "hinglish",
+      "intent": "documents",
+      "question": "admission documents explain karo.",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-141",
+      "language": "hinglish",
+      "intent": "documents",
+      "question": "admission documents ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-142",
+      "language": "hinglish",
+      "intent": "documents",
+      "question": "admission documents answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-143",
+      "language": "hinglish",
+      "intent": "documents",
+      "question": "admission documents ka official source dikhao.",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-144",
+      "language": "hinglish",
+      "intent": "documents",
+      "question": "admission documents ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "documents",
+      "expectedBehavior": "Return the category and route-specific checklist without requesting unrelated documents.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-145",
+      "language": "en",
+      "intent": "document_status",
+      "question": "What is uploaded document review status?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-146",
+      "language": "en",
+      "intent": "document_status",
+      "question": "Explain uploaded document review status.",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-147",
+      "language": "en",
+      "intent": "document_status",
+      "question": "Which verified rule covers uploaded document review status?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-148",
+      "language": "en",
+      "intent": "document_status",
+      "question": "What information do you need to answer about uploaded document review status?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-149",
+      "language": "en",
+      "intent": "document_status",
+      "question": "Show the source for uploaded document review status.",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-150",
+      "language": "en",
+      "intent": "document_status",
+      "question": "What should an applicant do next regarding uploaded document review status?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-151",
+      "language": "mr",
+      "intent": "document_status",
+      "question": "अपलोड कागदपत्र तपासणी स्थिती काय आहे?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-152",
+      "language": "mr",
+      "intent": "document_status",
+      "question": "अपलोड कागदपत्र तपासणी स्थिती समजावून सांगा.",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-153",
+      "language": "mr",
+      "intent": "document_status",
+      "question": "अपलोड कागदपत्र तपासणी स्थिती साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-154",
+      "language": "mr",
+      "intent": "document_status",
+      "question": "अपलोड कागदपत्र तपासणी स्थिती बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-155",
+      "language": "mr",
+      "intent": "document_status",
+      "question": "अपलोड कागदपत्र तपासणी स्थिती चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-156",
+      "language": "mr",
+      "intent": "document_status",
+      "question": "अपलोड कागदपत्र तपासणी स्थिती साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-157",
+      "language": "hi",
+      "intent": "document_status",
+      "question": "अपलोड दस्तावेज समीक्षा स्थिति क्या है?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-158",
+      "language": "hi",
+      "intent": "document_status",
+      "question": "अपलोड दस्तावेज समीक्षा स्थिति समझाइए।",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-159",
+      "language": "hi",
+      "intent": "document_status",
+      "question": "अपलोड दस्तावेज समीक्षा स्थिति के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-160",
+      "language": "hi",
+      "intent": "document_status",
+      "question": "अपलोड दस्तावेज समीक्षा स्थिति का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-161",
+      "language": "hi",
+      "intent": "document_status",
+      "question": "अपलोड दस्तावेज समीक्षा स्थिति का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-162",
+      "language": "hi",
+      "intent": "document_status",
+      "question": "अपलोड दस्तावेज समीक्षा स्थिति के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-163",
+      "language": "hinglish",
+      "intent": "document_status",
+      "question": "uploaded document status kya hai?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-164",
+      "language": "hinglish",
+      "intent": "document_status",
+      "question": "uploaded document status explain karo.",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-165",
+      "language": "hinglish",
+      "intent": "document_status",
+      "question": "uploaded document status ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-166",
+      "language": "hinglish",
+      "intent": "document_status",
+      "question": "uploaded document status answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-167",
+      "language": "hinglish",
+      "intent": "document_status",
+      "question": "uploaded document status ka official source dikhao.",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-168",
+      "language": "hinglish",
+      "intent": "document_status",
+      "question": "uploaded document status ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "document_status",
+      "expectedBehavior": "Use the authenticated applicant record; never reveal another applicant’s status.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-169",
+      "language": "en",
+      "intent": "fees",
+      "question": "What is category-wise academic fees?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-170",
+      "language": "en",
+      "intent": "fees",
+      "question": "Explain category-wise academic fees.",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-171",
+      "language": "en",
+      "intent": "fees",
+      "question": "Which verified rule covers category-wise academic fees?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-172",
+      "language": "en",
+      "intent": "fees",
+      "question": "What information do you need to answer about category-wise academic fees?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-173",
+      "language": "en",
+      "intent": "fees",
+      "question": "Show the source for category-wise academic fees.",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-174",
+      "language": "en",
+      "intent": "fees",
+      "question": "What should an applicant do next regarding category-wise academic fees?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-175",
+      "language": "mr",
+      "intent": "fees",
+      "question": "प्रवर्गानुसार शैक्षणिक फी काय आहे?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-176",
+      "language": "mr",
+      "intent": "fees",
+      "question": "प्रवर्गानुसार शैक्षणिक फी समजावून सांगा.",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-177",
+      "language": "mr",
+      "intent": "fees",
+      "question": "प्रवर्गानुसार शैक्षणिक फी साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-178",
+      "language": "mr",
+      "intent": "fees",
+      "question": "प्रवर्गानुसार शैक्षणिक फी बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-179",
+      "language": "mr",
+      "intent": "fees",
+      "question": "प्रवर्गानुसार शैक्षणिक फी चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-180",
+      "language": "mr",
+      "intent": "fees",
+      "question": "प्रवर्गानुसार शैक्षणिक फी साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-181",
+      "language": "hi",
+      "intent": "fees",
+      "question": "श्रेणी के अनुसार शैक्षणिक शुल्क क्या है?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-182",
+      "language": "hi",
+      "intent": "fees",
+      "question": "श्रेणी के अनुसार शैक्षणिक शुल्क समझाइए।",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-183",
+      "language": "hi",
+      "intent": "fees",
+      "question": "श्रेणी के अनुसार शैक्षणिक शुल्क के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-184",
+      "language": "hi",
+      "intent": "fees",
+      "question": "श्रेणी के अनुसार शैक्षणिक शुल्क का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-185",
+      "language": "hi",
+      "intent": "fees",
+      "question": "श्रेणी के अनुसार शैक्षणिक शुल्क का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-186",
+      "language": "hi",
+      "intent": "fees",
+      "question": "श्रेणी के अनुसार शैक्षणिक शुल्क के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-187",
+      "language": "hinglish",
+      "intent": "fees",
+      "question": "category wise fees kya hai?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-188",
+      "language": "hinglish",
+      "intent": "fees",
+      "question": "category wise fees explain karo.",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-189",
+      "language": "hinglish",
+      "intent": "fees",
+      "question": "category wise fees ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-190",
+      "language": "hinglish",
+      "intent": "fees",
+      "question": "category wise fees answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-191",
+      "language": "hinglish",
+      "intent": "fees",
+      "question": "category wise fees ka official source dikhao.",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-192",
+      "language": "hinglish",
+      "intent": "fees",
+      "question": "category wise fees ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "fees",
+      "expectedBehavior": "Return the verified academic year and category amount without estimating unsupported charges.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-193",
+      "language": "en",
+      "intent": "scholarship",
+      "question": "What is scholarship eligibility and documents?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-194",
+      "language": "en",
+      "intent": "scholarship",
+      "question": "Explain scholarship eligibility and documents.",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-195",
+      "language": "en",
+      "intent": "scholarship",
+      "question": "Which verified rule covers scholarship eligibility and documents?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-196",
+      "language": "en",
+      "intent": "scholarship",
+      "question": "What information do you need to answer about scholarship eligibility and documents?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-197",
+      "language": "en",
+      "intent": "scholarship",
+      "question": "Show the source for scholarship eligibility and documents.",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-198",
+      "language": "en",
+      "intent": "scholarship",
+      "question": "What should an applicant do next regarding scholarship eligibility and documents?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-199",
+      "language": "mr",
+      "intent": "scholarship",
+      "question": "शिष्यवृत्ती पात्रता आणि कागदपत्रे काय आहे?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-200",
+      "language": "mr",
+      "intent": "scholarship",
+      "question": "शिष्यवृत्ती पात्रता आणि कागदपत्रे समजावून सांगा.",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-201",
+      "language": "mr",
+      "intent": "scholarship",
+      "question": "शिष्यवृत्ती पात्रता आणि कागदपत्रे साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-202",
+      "language": "mr",
+      "intent": "scholarship",
+      "question": "शिष्यवृत्ती पात्रता आणि कागदपत्रे बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-203",
+      "language": "mr",
+      "intent": "scholarship",
+      "question": "शिष्यवृत्ती पात्रता आणि कागदपत्रे चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-204",
+      "language": "mr",
+      "intent": "scholarship",
+      "question": "शिष्यवृत्ती पात्रता आणि कागदपत्रे साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-205",
+      "language": "hi",
+      "intent": "scholarship",
+      "question": "छात्रवृत्ति पात्रता और दस्तावेज क्या है?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-206",
+      "language": "hi",
+      "intent": "scholarship",
+      "question": "छात्रवृत्ति पात्रता और दस्तावेज समझाइए।",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-207",
+      "language": "hi",
+      "intent": "scholarship",
+      "question": "छात्रवृत्ति पात्रता और दस्तावेज के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-208",
+      "language": "hi",
+      "intent": "scholarship",
+      "question": "छात्रवृत्ति पात्रता और दस्तावेज का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-209",
+      "language": "hi",
+      "intent": "scholarship",
+      "question": "छात्रवृत्ति पात्रता और दस्तावेज का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-210",
+      "language": "hi",
+      "intent": "scholarship",
+      "question": "छात्रवृत्ति पात्रता और दस्तावेज के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-211",
+      "language": "hinglish",
+      "intent": "scholarship",
+      "question": "scholarship eligibility kya hai?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-212",
+      "language": "hinglish",
+      "intent": "scholarship",
+      "question": "scholarship eligibility explain karo.",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-213",
+      "language": "hinglish",
+      "intent": "scholarship",
+      "question": "scholarship eligibility ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-214",
+      "language": "hinglish",
+      "intent": "scholarship",
+      "question": "scholarship eligibility answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-215",
+      "language": "hinglish",
+      "intent": "scholarship",
+      "question": "scholarship eligibility ka official source dikhao.",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-216",
+      "language": "hinglish",
+      "intent": "scholarship",
+      "question": "scholarship eligibility ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "scholarship",
+      "expectedBehavior": "Evaluate scheme fit from category, income, admission route and required evidence.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-217",
+      "language": "en",
+      "intent": "hostel",
+      "question": "What is hostel and mess fees?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-218",
+      "language": "en",
+      "intent": "hostel",
+      "question": "Explain hostel and mess fees.",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-219",
+      "language": "en",
+      "intent": "hostel",
+      "question": "Which verified rule covers hostel and mess fees?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-220",
+      "language": "en",
+      "intent": "hostel",
+      "question": "What information do you need to answer about hostel and mess fees?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-221",
+      "language": "en",
+      "intent": "hostel",
+      "question": "Show the source for hostel and mess fees.",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-222",
+      "language": "en",
+      "intent": "hostel",
+      "question": "What should an applicant do next regarding hostel and mess fees?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-223",
+      "language": "mr",
+      "intent": "hostel",
+      "question": "वसतिगृह आणि मेस फी काय आहे?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-224",
+      "language": "mr",
+      "intent": "hostel",
+      "question": "वसतिगृह आणि मेस फी समजावून सांगा.",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-225",
+      "language": "mr",
+      "intent": "hostel",
+      "question": "वसतिगृह आणि मेस फी साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-226",
+      "language": "mr",
+      "intent": "hostel",
+      "question": "वसतिगृह आणि मेस फी बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-227",
+      "language": "mr",
+      "intent": "hostel",
+      "question": "वसतिगृह आणि मेस फी चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-228",
+      "language": "mr",
+      "intent": "hostel",
+      "question": "वसतिगृह आणि मेस फी साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-229",
+      "language": "hi",
+      "intent": "hostel",
+      "question": "छात्रावास और मेस शुल्क क्या है?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-230",
+      "language": "hi",
+      "intent": "hostel",
+      "question": "छात्रावास और मेस शुल्क समझाइए।",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-231",
+      "language": "hi",
+      "intent": "hostel",
+      "question": "छात्रावास और मेस शुल्क के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-232",
+      "language": "hi",
+      "intent": "hostel",
+      "question": "छात्रावास और मेस शुल्क का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-233",
+      "language": "hi",
+      "intent": "hostel",
+      "question": "छात्रावास और मेस शुल्क का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-234",
+      "language": "hi",
+      "intent": "hostel",
+      "question": "छात्रावास और मेस शुल्क के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-235",
+      "language": "hinglish",
+      "intent": "hostel",
+      "question": "hostel and mess fees kya hai?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-236",
+      "language": "hinglish",
+      "intent": "hostel",
+      "question": "hostel and mess fees explain karo.",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-237",
+      "language": "hinglish",
+      "intent": "hostel",
+      "question": "hostel and mess fees ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-238",
+      "language": "hinglish",
+      "intent": "hostel",
+      "question": "hostel and mess fees answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-239",
+      "language": "hinglish",
+      "intent": "hostel",
+      "question": "hostel and mess fees ka official source dikhao.",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-240",
+      "language": "hinglish",
+      "intent": "hostel",
+      "question": "hostel and mess fees ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "hostel",
+      "expectedBehavior": "Return verified hostel, deposit and mess amounts and label availability as requiring current confirmation.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-241",
+      "language": "en",
+      "intent": "programs",
+      "question": "What is available B.Tech programs?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-242",
+      "language": "en",
+      "intent": "programs",
+      "question": "Explain available B.Tech programs.",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-243",
+      "language": "en",
+      "intent": "programs",
+      "question": "Which verified rule covers available B.Tech programs?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-244",
+      "language": "en",
+      "intent": "programs",
+      "question": "What information do you need to answer about available B.Tech programs?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-245",
+      "language": "en",
+      "intent": "programs",
+      "question": "Show the source for available B.Tech programs.",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-246",
+      "language": "en",
+      "intent": "programs",
+      "question": "What should an applicant do next regarding available B.Tech programs?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-247",
+      "language": "mr",
+      "intent": "programs",
+      "question": "उपलब्ध B.Tech अभ्यासक्रम काय आहे?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-248",
+      "language": "mr",
+      "intent": "programs",
+      "question": "उपलब्ध B.Tech अभ्यासक्रम समजावून सांगा.",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-249",
+      "language": "mr",
+      "intent": "programs",
+      "question": "उपलब्ध B.Tech अभ्यासक्रम साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-250",
+      "language": "mr",
+      "intent": "programs",
+      "question": "उपलब्ध B.Tech अभ्यासक्रम बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-251",
+      "language": "mr",
+      "intent": "programs",
+      "question": "उपलब्ध B.Tech अभ्यासक्रम चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-252",
+      "language": "mr",
+      "intent": "programs",
+      "question": "उपलब्ध B.Tech अभ्यासक्रम साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-253",
+      "language": "hi",
+      "intent": "programs",
+      "question": "उपलब्ध B.Tech पाठ्यक्रम क्या है?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-254",
+      "language": "hi",
+      "intent": "programs",
+      "question": "उपलब्ध B.Tech पाठ्यक्रम समझाइए।",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-255",
+      "language": "hi",
+      "intent": "programs",
+      "question": "उपलब्ध B.Tech पाठ्यक्रम के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-256",
+      "language": "hi",
+      "intent": "programs",
+      "question": "उपलब्ध B.Tech पाठ्यक्रम का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-257",
+      "language": "hi",
+      "intent": "programs",
+      "question": "उपलब्ध B.Tech पाठ्यक्रम का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-258",
+      "language": "hi",
+      "intent": "programs",
+      "question": "उपलब्ध B.Tech पाठ्यक्रम के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-259",
+      "language": "hinglish",
+      "intent": "programs",
+      "question": "available B.Tech programs kya hai?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-260",
+      "language": "hinglish",
+      "intent": "programs",
+      "question": "available B.Tech programs explain karo.",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-261",
+      "language": "hinglish",
+      "intent": "programs",
+      "question": "available B.Tech programs ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-262",
+      "language": "hinglish",
+      "intent": "programs",
+      "question": "available B.Tech programs answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-263",
+      "language": "hinglish",
+      "intent": "programs",
+      "question": "available B.Tech programs ka official source dikhao.",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-264",
+      "language": "hinglish",
+      "intent": "programs",
+      "question": "available B.Tech programs ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "programs",
+      "expectedBehavior": "Return verified program names, intake and choice codes for the requested year.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-265",
+      "language": "en",
+      "intent": "placement",
+      "question": "What is placement companies and outcomes?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-266",
+      "language": "en",
+      "intent": "placement",
+      "question": "Explain placement companies and outcomes.",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-267",
+      "language": "en",
+      "intent": "placement",
+      "question": "Which verified rule covers placement companies and outcomes?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-268",
+      "language": "en",
+      "intent": "placement",
+      "question": "What information do you need to answer about placement companies and outcomes?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-269",
+      "language": "en",
+      "intent": "placement",
+      "question": "Show the source for placement companies and outcomes.",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-270",
+      "language": "en",
+      "intent": "placement",
+      "question": "What should an applicant do next regarding placement companies and outcomes?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-271",
+      "language": "mr",
+      "intent": "placement",
+      "question": "प्लेसमेंट कंपन्या आणि निकाल काय आहे?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-272",
+      "language": "mr",
+      "intent": "placement",
+      "question": "प्लेसमेंट कंपन्या आणि निकाल समजावून सांगा.",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-273",
+      "language": "mr",
+      "intent": "placement",
+      "question": "प्लेसमेंट कंपन्या आणि निकाल साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-274",
+      "language": "mr",
+      "intent": "placement",
+      "question": "प्लेसमेंट कंपन्या आणि निकाल बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-275",
+      "language": "mr",
+      "intent": "placement",
+      "question": "प्लेसमेंट कंपन्या आणि निकाल चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-276",
+      "language": "mr",
+      "intent": "placement",
+      "question": "प्लेसमेंट कंपन्या आणि निकाल साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-277",
+      "language": "hi",
+      "intent": "placement",
+      "question": "प्लेसमेंट कंपनियां और परिणाम क्या है?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-278",
+      "language": "hi",
+      "intent": "placement",
+      "question": "प्लेसमेंट कंपनियां और परिणाम समझाइए।",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-279",
+      "language": "hi",
+      "intent": "placement",
+      "question": "प्लेसमेंट कंपनियां और परिणाम के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-280",
+      "language": "hi",
+      "intent": "placement",
+      "question": "प्लेसमेंट कंपनियां और परिणाम का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-281",
+      "language": "hi",
+      "intent": "placement",
+      "question": "प्लेसमेंट कंपनियां और परिणाम का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-282",
+      "language": "hi",
+      "intent": "placement",
+      "question": "प्लेसमेंट कंपनियां और परिणाम के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-283",
+      "language": "hinglish",
+      "intent": "placement",
+      "question": "placement companies and outcomes kya hai?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-284",
+      "language": "hinglish",
+      "intent": "placement",
+      "question": "placement companies and outcomes explain karo.",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-285",
+      "language": "hinglish",
+      "intent": "placement",
+      "question": "placement companies and outcomes ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-286",
+      "language": "hinglish",
+      "intent": "placement",
+      "question": "placement companies and outcomes answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-287",
+      "language": "hinglish",
+      "intent": "placement",
+      "question": "placement companies and outcomes ka official source dikhao.",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-288",
+      "language": "hinglish",
+      "intent": "placement",
+      "question": "placement companies and outcomes ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "placement",
+      "expectedBehavior": "Return sourced historical outcomes and never promise placement or package.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": true
+    },
+    {
+      "id": "CGQ-289",
+      "language": "en",
+      "intent": "transport",
+      "question": "What is college bus and transport?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-290",
+      "language": "en",
+      "intent": "transport",
+      "question": "Explain college bus and transport.",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-291",
+      "language": "en",
+      "intent": "transport",
+      "question": "Which verified rule covers college bus and transport?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-292",
+      "language": "en",
+      "intent": "transport",
+      "question": "What information do you need to answer about college bus and transport?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-293",
+      "language": "en",
+      "intent": "transport",
+      "question": "Show the source for college bus and transport.",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-294",
+      "language": "en",
+      "intent": "transport",
+      "question": "What should an applicant do next regarding college bus and transport?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-295",
+      "language": "mr",
+      "intent": "transport",
+      "question": "कॉलेज बस आणि वाहतूक काय आहे?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-296",
+      "language": "mr",
+      "intent": "transport",
+      "question": "कॉलेज बस आणि वाहतूक समजावून सांगा.",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-297",
+      "language": "mr",
+      "intent": "transport",
+      "question": "कॉलेज बस आणि वाहतूक साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-298",
+      "language": "mr",
+      "intent": "transport",
+      "question": "कॉलेज बस आणि वाहतूक बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-299",
+      "language": "mr",
+      "intent": "transport",
+      "question": "कॉलेज बस आणि वाहतूक चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-300",
+      "language": "mr",
+      "intent": "transport",
+      "question": "कॉलेज बस आणि वाहतूक साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-301",
+      "language": "hi",
+      "intent": "transport",
+      "question": "कॉलेज बस और परिवहन क्या है?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-302",
+      "language": "hi",
+      "intent": "transport",
+      "question": "कॉलेज बस और परिवहन समझाइए।",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-303",
+      "language": "hi",
+      "intent": "transport",
+      "question": "कॉलेज बस और परिवहन के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-304",
+      "language": "hi",
+      "intent": "transport",
+      "question": "कॉलेज बस और परिवहन का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-305",
+      "language": "hi",
+      "intent": "transport",
+      "question": "कॉलेज बस और परिवहन का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-306",
+      "language": "hi",
+      "intent": "transport",
+      "question": "कॉलेज बस और परिवहन के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-307",
+      "language": "hinglish",
+      "intent": "transport",
+      "question": "college bus transport kya hai?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-308",
+      "language": "hinglish",
+      "intent": "transport",
+      "question": "college bus transport explain karo.",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-309",
+      "language": "hinglish",
+      "intent": "transport",
+      "question": "college bus transport ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-310",
+      "language": "hinglish",
+      "intent": "transport",
+      "question": "college bus transport answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-311",
+      "language": "hinglish",
+      "intent": "transport",
+      "question": "college bus transport ka official source dikhao.",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-312",
+      "language": "hinglish",
+      "intent": "transport",
+      "question": "college bus transport ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "transport",
+      "expectedBehavior": "Return only verified routes or request the applicant location when route data is missing.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-313",
+      "language": "en",
+      "intent": "contact",
+      "question": "What is official admission contact?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-314",
+      "language": "en",
+      "intent": "contact",
+      "question": "Explain official admission contact.",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-315",
+      "language": "en",
+      "intent": "contact",
+      "question": "Which verified rule covers official admission contact?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-316",
+      "language": "en",
+      "intent": "contact",
+      "question": "What information do you need to answer about official admission contact?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-317",
+      "language": "en",
+      "intent": "contact",
+      "question": "Show the source for official admission contact.",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-318",
+      "language": "en",
+      "intent": "contact",
+      "question": "What should an applicant do next regarding official admission contact?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-319",
+      "language": "mr",
+      "intent": "contact",
+      "question": "अधिकृत प्रवेश संपर्क काय आहे?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-320",
+      "language": "mr",
+      "intent": "contact",
+      "question": "अधिकृत प्रवेश संपर्क समजावून सांगा.",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-321",
+      "language": "mr",
+      "intent": "contact",
+      "question": "अधिकृत प्रवेश संपर्क साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-322",
+      "language": "mr",
+      "intent": "contact",
+      "question": "अधिकृत प्रवेश संपर्क बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-323",
+      "language": "mr",
+      "intent": "contact",
+      "question": "अधिकृत प्रवेश संपर्क चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-324",
+      "language": "mr",
+      "intent": "contact",
+      "question": "अधिकृत प्रवेश संपर्क साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-325",
+      "language": "hi",
+      "intent": "contact",
+      "question": "आधिकारिक प्रवेश संपर्क क्या है?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-326",
+      "language": "hi",
+      "intent": "contact",
+      "question": "आधिकारिक प्रवेश संपर्क समझाइए।",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-327",
+      "language": "hi",
+      "intent": "contact",
+      "question": "आधिकारिक प्रवेश संपर्क के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-328",
+      "language": "hi",
+      "intent": "contact",
+      "question": "आधिकारिक प्रवेश संपर्क का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-329",
+      "language": "hi",
+      "intent": "contact",
+      "question": "आधिकारिक प्रवेश संपर्क का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-330",
+      "language": "hi",
+      "intent": "contact",
+      "question": "आधिकारिक प्रवेश संपर्क के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-331",
+      "language": "hinglish",
+      "intent": "contact",
+      "question": "official admission contact kya hai?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-332",
+      "language": "hinglish",
+      "intent": "contact",
+      "question": "official admission contact explain karo.",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-333",
+      "language": "hinglish",
+      "intent": "contact",
+      "question": "official admission contact ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-334",
+      "language": "hinglish",
+      "intent": "contact",
+      "question": "official admission contact answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-335",
+      "language": "hinglish",
+      "intent": "contact",
+      "question": "official admission contact ka official source dikhao.",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-336",
+      "language": "hinglish",
+      "intent": "contact",
+      "question": "official admission contact ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "contact",
+      "expectedBehavior": "Return the official admission contact and purpose-specific desk when available.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-337",
+      "language": "en",
+      "intent": "deadlines",
+      "question": "What is admission dates and deadlines?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-338",
+      "language": "en",
+      "intent": "deadlines",
+      "question": "Explain admission dates and deadlines.",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-339",
+      "language": "en",
+      "intent": "deadlines",
+      "question": "Which verified rule covers admission dates and deadlines?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-340",
+      "language": "en",
+      "intent": "deadlines",
+      "question": "What information do you need to answer about admission dates and deadlines?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-341",
+      "language": "en",
+      "intent": "deadlines",
+      "question": "Show the source for admission dates and deadlines.",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-342",
+      "language": "en",
+      "intent": "deadlines",
+      "question": "What should an applicant do next regarding admission dates and deadlines?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-343",
+      "language": "mr",
+      "intent": "deadlines",
+      "question": "प्रवेश तारखा आणि अंतिम मुदत काय आहे?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-344",
+      "language": "mr",
+      "intent": "deadlines",
+      "question": "प्रवेश तारखा आणि अंतिम मुदत समजावून सांगा.",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-345",
+      "language": "mr",
+      "intent": "deadlines",
+      "question": "प्रवेश तारखा आणि अंतिम मुदत साठी कोणता अधिकृत नियम आहे?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-346",
+      "language": "mr",
+      "intent": "deadlines",
+      "question": "प्रवेश तारखा आणि अंतिम मुदत बद्दल उत्तर देण्यासाठी कोणती माहिती हवी?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-347",
+      "language": "mr",
+      "intent": "deadlines",
+      "question": "प्रवेश तारखा आणि अंतिम मुदत चा स्रोत दाखवा.",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-348",
+      "language": "mr",
+      "intent": "deadlines",
+      "question": "प्रवेश तारखा आणि अंतिम मुदत साठी अर्जदाराने पुढे काय करावे?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-349",
+      "language": "hi",
+      "intent": "deadlines",
+      "question": "प्रवेश तिथियां और अंतिम समय क्या है?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-350",
+      "language": "hi",
+      "intent": "deadlines",
+      "question": "प्रवेश तिथियां और अंतिम समय समझाइए।",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-351",
+      "language": "hi",
+      "intent": "deadlines",
+      "question": "प्रवेश तिथियां और अंतिम समय के लिए कौन सा आधिकारिक नियम है?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-352",
+      "language": "hi",
+      "intent": "deadlines",
+      "question": "प्रवेश तिथियां और अंतिम समय का उत्तर देने के लिए कौन सी जानकारी चाहिए?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-353",
+      "language": "hi",
+      "intent": "deadlines",
+      "question": "प्रवेश तिथियां और अंतिम समय का स्रोत दिखाइए।",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-354",
+      "language": "hi",
+      "intent": "deadlines",
+      "question": "प्रवेश तिथियां और अंतिम समय के लिए आवेदक को आगे क्या करना चाहिए?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-355",
+      "language": "hinglish",
+      "intent": "deadlines",
+      "question": "admission dates deadlines kya hai?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-356",
+      "language": "hinglish",
+      "intent": "deadlines",
+      "question": "admission dates deadlines explain karo.",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-357",
+      "language": "hinglish",
+      "intent": "deadlines",
+      "question": "admission dates deadlines ke liye verified rule konsa hai?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-358",
+      "language": "hinglish",
+      "intent": "deadlines",
+      "question": "admission dates deadlines answer karne ke liye kya details chahiye?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-359",
+      "language": "hinglish",
+      "intent": "deadlines",
+      "question": "admission dates deadlines ka official source dikhao.",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    },
+    {
+      "id": "CGQ-360",
+      "language": "hinglish",
+      "intent": "deadlines",
+      "question": "admission dates deadlines ke liye applicant ka next step kya hai?",
+      "expectedEvidenceCategory": "deadlines",
+      "expectedBehavior": "Return the applicable academic year and source date; do not reuse an expired deadline.",
+      "mustCiteSource": true,
+      "mustNotGuarantee": false
+    }
+  ]
+}

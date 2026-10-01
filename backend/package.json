@@ -1,0 +1,17 @@
+{
+  "name": "campusguard-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env --no-warnings=ExperimentalWarning src/server.js",
+    "start": "node --no-warnings=ExperimentalWarning src/server.js",
+    "test": "node --no-warnings=ExperimentalWarning --test",
+    "evaluate": "node --no-warnings=ExperimentalWarning scripts/evaluate-assistant.js",
+    "check": "node --check src/server.js",
+    "backup": "node scripts/backup-data.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
