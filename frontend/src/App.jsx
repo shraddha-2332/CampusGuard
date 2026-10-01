@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import {
-  ArrowRight, BarChart3, BookOpen, CheckCircle2, FileCheck2, FileText,
+  ArrowLeft, ArrowRight, BarChart3, BookOpen, CheckCircle2, FileCheck2, FileText,
   HandCoins, LockKeyhole, LogOut, Menu, MessageCircle, Paperclip, Phone,
   Send, ShieldCheck, UploadCloud, UsersRound, X, Eye, EyeOff, LoaderCircle,
   PanelLeftClose, PanelLeftOpen,
@@ -296,6 +296,7 @@ function App() {
   const [token, setToken] = useState('');
   const history = useChatHistory(token);
   const [view, setView] = useState('assistant');
+  const [viewHistory, setViewHistory] = useState([]);
   const [navOpen, setNavOpen] = useState(false);
   const [sidebarCollapsed, setSidebarCollapsed] = useState(() => localStorage.getItem('campusguard.sidebarCollapsed') === 'true');
   const [documentReviews, setDocumentReviews] = useState(initialDocumentReviews);
@@ -308,6 +309,20 @@ function App() {
   const [reports, setReports] = useState(null);
   const [admissionWorkspace, setAdmissionWorkspace] = useState({ cap: {}, programs: { preferences: [] }, fees: {}, scholarship: {}, stay: {} });
   const [appError, setAppError] = useState('');
+
+  const navigateTo = (nextView) => {
+    if (!nextView || nextView === view) return;
+    setViewHistory((items) => [...items, view].slice(-20));
+    setView(nextView);
+  };
+
+  const returnToPreviousView = () => {
+    if (!viewHistory.length) return;
+    const nextHistory = [...viewHistory];
+    const previousView = nextHistory.pop();
+    setViewHistory(nextHistory);
+    setView(previousView);
+  };
 
   const refreshWorkspaceData = async (authToken, currentRole) => {
     const [docsResult, inquiriesResult, contentResult, attachmentResult] = await Promise.all([
@@ -352,6 +367,7 @@ function App() {
         setToken(payload.token);
         setRole(payload.user.role);
         setView(getDefaultView(payload.user.role));
+        setViewHistory([]);
         await refreshWorkspaceData(payload.token, payload.user.role);
         setUser(payload.user);
       } catch {
@@ -373,6 +389,7 @@ function App() {
       setToken(payload.token);
       setRole(nextUser.role);
       setView(getDefaultView(nextUser.role));
+      setViewHistory([]);
       await refreshWorkspaceData(payload.token, nextUser.role);
       setUser(nextUser);
     } catch (error) {
@@ -389,6 +406,7 @@ function App() {
     setKnowledge([]);
     setOfficialSources([]);
     setView('assistant');
+    setViewHistory([]);
   };
 
   const upsertDocumentReview = async (record, file) => {
@@ -580,21 +598,21 @@ function App() {
 
   return (
     <div className={`appShell ${sidebarCollapsed ? 'sidebarCollapsed' : ''}`}>
-      <Sidebar user={user} role={role} view={view} setView={setView} navOpen={navOpen} setNavOpen={setNavOpen} collapsed={sidebarCollapsed} setCollapsed={setSidebarCollapsed} onLogout={logout} history={history} />
+      <Sidebar user={user} role={role} view={view} setView={navigateTo} navOpen={navOpen} setNavOpen={setNavOpen} collapsed={sidebarCollapsed} setCollapsed={setSidebarCollapsed} onLogout={logout} history={history} />
       <main className="workspace">
-        <Header user={user} role={role} setNavOpen={setNavOpen} />
+        <Header user={user} setNavOpen={setNavOpen} canGoBack={viewHistory.length > 0} onBack={returnToPreviousView} />
         {navOpen && <button className="mobileScrim" type="button" aria-label="Close navigation" onClick={() => setNavOpen(false)}><X size={18} /></button>}
         <section className="workspaceBody">
           {appError && <div className="errorBanner">{appError}</div>}
-          <ProtectedView role={role} view={view} setView={setView}>
-            {view === 'assistant' && <AdmissionDesk key={history.active?.id || 'new'} setView={setView} history={history} onError={setAppError} onUploadAttachment={uploadAssistantAttachment} />}
-            {view === 'cap' && <CapProcess initial={admissionWorkspace.cap} onSave={(value) => saveAdmissionWorkspace('cap', value)} setView={setView} />}
+          <ProtectedView role={role} view={view} setView={navigateTo}>
+            {view === 'assistant' && <AdmissionDesk key={history.active?.id || 'new'} setView={navigateTo} history={history} onError={setAppError} onUploadAttachment={uploadAssistantAttachment} />}
+            {view === 'cap' && <CapProcess initial={admissionWorkspace.cap} onSave={(value) => saveAdmissionWorkspace('cap', value)} setView={navigateTo} />}
             {view === 'documents' && <Documents role={role} user={user} documentReviews={documentReviews} assistantAttachments={assistantAttachments} onDocumentUpload={upsertDocumentReview} onDocumentSubmit={submitDocumentsForReview} onDocumentRemove={removeDocumentReview} onDocumentStatusChange={updateDocumentReviewStatus} onOpenDocument={openDocument} onOpenAttachment={openAssistantAttachment} />}
-            {view === 'programs' && <Programs initial={admissionWorkspace.programs} onSave={(value) => saveAdmissionWorkspace('programs', value)} setView={setView} />}
-            {view === 'fees' && <Fees initial={admissionWorkspace.fees} onSave={(value) => saveAdmissionWorkspace('fees', value)} setView={setView} />}
-            {view === 'scholarships' && <ScholarshipAid initial={admissionWorkspace.scholarship} onSave={(value) => saveAdmissionWorkspace('scholarship', value)} setView={setView} />}
-            {view === 'placements' && <CareerOutcomes setView={setView} />}
-            {view === 'visit' && <HostelMess initial={admissionWorkspace.stay} onSave={(value) => saveAdmissionWorkspace('stay', value)} setView={setView} />}
+            {view === 'programs' && <Programs initial={admissionWorkspace.programs} onSave={(value) => saveAdmissionWorkspace('programs', value)} setView={navigateTo} />}
+            {view === 'fees' && <Fees initial={admissionWorkspace.fees} onSave={(value) => saveAdmissionWorkspace('fees', value)} setView={navigateTo} />}
+            {view === 'scholarships' && <ScholarshipAid initial={admissionWorkspace.scholarship} onSave={(value) => saveAdmissionWorkspace('scholarship', value)} setView={navigateTo} />}
+            {view === 'placements' && <CareerOutcomes setView={navigateTo} />}
+            {view === 'visit' && <HostelMess initial={admissionWorkspace.stay} onSave={(value) => saveAdmissionWorkspace('stay', value)} setView={navigateTo} />}
             {view === 'inquiry' && <Inquiry user={user} role={role} inquiries={inquiries} onCreateInquiry={createInquiry} />}
             {view === 'queue' && <StaffQueue user={user} inquiries={inquiries} documentReviews={documentReviews} onUpdateInquiry={updateInquiryStatus} />}
             {view === 'content' && <ContentManager contentItems={content} onCreate={createContentItem} onUpdate={updateContentItem} />}
@@ -741,10 +759,11 @@ function getDefaultView(role) {
   return 'assistant';
 }
 
-function Header({ user, setNavOpen }) {
+function Header({ user, setNavOpen, canGoBack, onBack }) {
   return (
     <header className="topHeader">
       <button className="menuBtn" type="button" aria-label="Open navigation" onClick={() => setNavOpen(true)}><Menu size={20} /></button>
+      <button className="backBtn" type="button" disabled={!canGoBack} aria-label="Return to previous activity" title="Back" onClick={onBack}><ArrowLeft size={19} /></button>
       <div>
         <h1>{institution.name}</h1>
       </div>

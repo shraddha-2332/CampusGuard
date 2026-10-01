@@ -163,6 +163,9 @@ button { border: 0; }
 .topHeader span { display: block; margin-bottom: 2px; color: var(--muted); font-size: 12px; font-weight: 800; }
 .topHeader h1 { margin: 0; font-size: 17px; line-height: 1.2; }
 .authBadge { margin-left: auto; min-height: 34px; display: flex; align-items: center; gap: 8px; padding: 0 11px; border-radius: 999px; background: var(--soft); color: var(--blue); font-size: 12px; font-weight: 850; }
+.backBtn { width: 36px; height: 36px; display: grid; place-items: center; flex: 0 0 auto; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--blue); cursor: pointer; }
+.backBtn:hover:not(:disabled) { background: var(--soft); }
+.backBtn:disabled { color: #aeb9bc; background: #f7f9f9; cursor: default; opacity: .65; }
 .menuBtn, .mobileScrim { display: none; }
 .workspaceBody { height: calc(100vh - 70px); padding: 14px 22px; overflow: auto; }
 .unauthorizedView { min-height: calc(100vh - 114px); display: grid; place-items: center; align-content: center; gap: 12px; text-align: center; padding: 40px; border: 1px solid var(--line); border-radius: 8px; background: #fff; box-shadow: 0 8px 26px rgba(24,38,55,.06); }
