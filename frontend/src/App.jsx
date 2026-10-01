@@ -1248,7 +1248,7 @@ function ScholarshipAid({ initial, onSave, setView }) {
   const selectedDocs = [...new Set([...(scholarshipDocuments[profile.category] || scholarshipDocuments.open), ...pragatiDocuments])];
   const likelyScholarships = getLikelyScholarships(profile);
   return (
-    <div className="pageStack">
+    <div className="pageStack scholarshipPage">
       <div className="sectionHead"><span className="eyebrow">Scholarship Aid</span><h2>Find likely scholarship routes from student profile.</h2><p>Select the profile to see which scholarship or concession route may fit and which documents should be prepared.</p></div>
       <section className="decisionPanel">
         <div className="decisionForm">
@@ -1259,7 +1259,7 @@ function ScholarshipAid({ initial, onSave, setView }) {
           <label>Family income<select value={profile.income} onChange={(event) => updateProfile('income', event.target.value)}><option value="under8">Up to 8 lakh</option><option value="over8">Above 8 lakh / not claiming</option></select></label>
           <label>Hostel needed<select value={profile.hostel} onChange={(event) => updateProfile('hostel', event.target.value)}><option value="yes">Yes</option><option value="no">No</option><option value="unsure">Not decided</option></select></label>
         </div>
-        <div className="decisionResult">
+        <div className="decisionResult scholarshipDocuments">
           <span className="eyebrow">Required document checklist</span>
           {selectedDocs.map((item) => <div className="stepRow compact" key={item}><CheckCircle2 size={17} /> {item}</div>)}
         </div>

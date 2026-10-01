@@ -374,6 +374,13 @@ button { border: 0; }
 .decisionResult strong { display: block; margin-top: 5px; color: var(--green); font-size: 18px; }
 .decisionResult.notice strong { color: #755016; }
 .decisionResult p { margin: 8px 0 0; color: var(--muted); line-height: 1.55; }
+.scholarshipPage .decisionPanel { grid-template-columns: minmax(0,1fr) minmax(460px,.9fr); align-items: start; }
+.scholarshipPage .decisionForm { grid-template-columns: repeat(3, minmax(0,1fr)); align-content: start; grid-auto-rows: min-content; gap: 14px 12px; }
+.scholarshipPage .decisionForm label { align-content: start; }
+.scholarshipPage .scholarshipDocuments { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); align-self: start; column-gap: 18px; }
+.scholarshipPage .scholarshipDocuments > .eyebrow { grid-column: 1 / -1; margin-bottom: 4px; }
+.scholarshipPage .scholarshipDocuments .stepRow { align-items: flex-start; min-height: 32px; line-height: 1.4; }
+.scholarshipPage .scholarshipDocuments .stepRow svg { flex: 0 0 auto; margin-top: 1px; }
 .progressBar { height: 12px; overflow: hidden; border-radius: 999px; background: #edf3f2; }
 .progressBar span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--green), #3aa67b); transition: width 160ms ease; }
 .checkGrid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; margin-top: 15px; }
@@ -580,6 +587,8 @@ td select { min-height: 34px; border: 1px solid var(--line); border-radius: 8px;
   .inquiryList { border-right: 0; border-bottom: 1px solid var(--line); max-height: 340px; overflow-y: auto; }
   .readinessCards { grid-template-columns: repeat(2, minmax(0,1fr)); }
   .decisionForm { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .scholarshipPage .decisionPanel { grid-template-columns: 1fr; }
+  .scholarshipPage .decisionForm { grid-template-columns: repeat(3, minmax(0,1fr)); }
   .capHero, .readinessHero { flex-direction: column; align-items: flex-start; }
   .heroActions { justify-content: flex-start; }
   .deskPanel { position: static; }
@@ -610,6 +619,8 @@ td select { min-height: 34px; border: 1px solid var(--line); border-radius: 8px;
   .authStory, .authPanel { padding: 24px; }
   .authHeroCopy h1 { font-size: 32px; }
   .roleChooser div, .programGrid, .contentGrid, .knowledgeGrid, .reportGrid, .compactList, .formBlock form, .feeRecord ul, .decisionForm, .decisionForm.twoCol, .navigatorGrid, .readinessCards, .checkGrid { grid-template-columns: 1fr; }
+  .scholarshipPage .decisionForm, .scholarshipPage .scholarshipDocuments { grid-template-columns: 1fr; }
+  .scholarshipPage .scholarshipDocuments > .eyebrow { grid-column: auto; }
   .capSituationGrid, .careerGuidanceGrid, .branchOutcomeColumns, .placementQuestions, .placementPlatformGrid, .placementJourney { grid-template-columns: 1fr; }
   .placementHero { flex-direction: column; }
   .placementTable { overflow-x: auto; }
